@@ -6,5 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-sharp`,`gatsby-transformer-sharp`,{
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets/`,
+      },
+    },
+      {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: ["Roboto"],
+        display: "swap",
+      },
+    },],
 }
