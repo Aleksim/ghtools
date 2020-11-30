@@ -4,7 +4,7 @@ import {Link} from 'gatsby'
 import "../pages/mystyles.scss"
 
 
-const Nav = () => {
+const Nav2 = ({tag}) => {
 
   const [burger1, setBurger] = useState(false);
   const burger_value = burger1 ? 'is-active' : '';
@@ -13,8 +13,11 @@ const Nav = () => {
       <nav className="navbar uber">
         <div className="container is-max-desktop">
           <div className="navbar-brand">
-            <h1 className="navbar-item nav-logo">
-                GROWTH HACKER TOOLS
+            <a href="/" className="navbar-item nav-logo">
+                GHT
+            </a>
+            <h1 className="navbar-item nav-tag">
+                /{tag}
             </h1>
             <a onClick={()=>{
                 setBurger(!burger1)  
@@ -25,7 +28,7 @@ const Nav = () => {
             </a>
           </div>
           <div className={`navbar-menu ${burger_value}`}>
-            <div className="navbar-end nav-responsive">
+            <div className="navbar-end">
                 <Link className="navbar-item nav-item is-active" to="/category">
                    All categories
                 </Link>
@@ -39,4 +42,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Nav2

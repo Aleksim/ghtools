@@ -32,10 +32,27 @@ module.exports = {
       {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: ["Noto Sans", "Roboto", "Nerko One", "Open Sans"],
+        fonts: [ "Roboto", "Nerko One", "Open Sans", "Permanent Marker"],
         display: "swap",
       },
     },
+
+    {
+      resolve: `@el7cosmos/gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto`,
+          },
+                    {
+            family: `Nerko One`,
+          },
+          {
+            family: `Permanent Marker`,
+          },
+        ],
+      },
+    }
     
   ],
 }

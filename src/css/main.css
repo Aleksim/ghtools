@@ -13,73 +13,64 @@
 
 /*nav*/
 
-.newsletter {
-  margin-right: 20px;
+.navbar-brand {
+  padding-left: 0.75rem;
+}
+
+.nav-logo {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: Roboto;
+}
+
+.nav-tag {
   color: #37b7d2;
-  margin-top: 3px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: Roboto;
 }
 
-.uber-flex {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
+/*upperrow*/
+
+@media screen and (min-width: 992px) {
+  .upper-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+  }
 }
 
-.nav-flex1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: stretch;
-}
-
-.nav-flex2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: center;
-  align-content: stretch;
-}
-
-.lightning {
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-  margin-top: 3px;
+@media screen and (max-width: 992px) {
+  .upper-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+  }
 }
 
 /*hero*/
 .heroban {
   background-color: #1b1c1f;
-}
-
-.gh {
-  font-family: "Open Sans";
-  font-size: 2.7em;
-  color: #fff;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-bg {
-  background-color: #1b1c1f;
+  background-color: #191b1f;
 }
 
 .center-logo {
   text-align: center;
-}
-
-.h2flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: stretch;
 }
 
 .slash {
@@ -87,18 +78,41 @@
   color: #37b7d2;
 }
 
+/*Recent*/
+
+.recent {
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.recent-bg {
+  background-color: #1b1c1f;
+}
+
+/*category frame*/
+
+.category-frame {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.3rem;
+  background-color: #1b1c1f;
+}
+
+.category-item {
+  padding-top: 10px;
+  color: #37b7d2;
+}
+
 /*items*/
 
 .item {
   margin-bottom: 20px;
-}
-
-.list-block-upper {
-  margin-top: -20px;
-}
-
-.list-block {
-  margin-top: -50px;
+  background-color: rgba(0, 0, 0, 0.11);
+  border-radius: 17px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(31, 33, 36, 1);
 }
 
 .hide {
@@ -106,14 +120,15 @@
 }
 
 .title-gh {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto;
   color: #bebebe;
+  font-weight: bold;
 }
 
 /*tags*/
 .tags-gh {
-  font-family: "Noto Sans";
-  font-weight: 300;
+  font-family: "Roboto";
+  font-weight: 600;
   margin-right: 5px;
 }
 
@@ -127,26 +142,27 @@
 }
 
 .published-gh {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto;
   font-size: 0.8em;
   margin-top: 5px;
-  font-style: italic;
 }
 
 /*url-gh*/
 @media screen and (min-width: 992px) {
   .url-gh {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.6em;
+    font-family: Roboto;
+    font-size: 0.7em;
     margin-left: 5px;
+    font-style: italic;
   }
 }
 
 @media screen and (max-width: 992px) {
   .url-gh {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.6em;
+    font-family: Roboto;
+    font-size: 0.7em;
     margin-bottom: 5px;
+    font-style: italic;
   }
 }
 
@@ -187,4 +203,49 @@
 
 .list-items {
   padding: 10px 20px;
+}
+
+/*signup*/
+
+.signup-bg {
+  color: #fff;
+  background-color: #1b1c1f;
+  height: 100vh;
+}
+
+.sign-up-header {
+  font-weight: 800;
+  font-family: Roboto;
+}
+.sign-up-header2 {
+  margin-top: 20px;
+  font-family: Roboto;
+}
+
+.sign-up-box {
+  margin-top: 20px;
+}
+
+/*Footer*/
+
+.footer-style {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.top-footer {
+}
+
+.icons-footer {
+  margin-top: 10px;
+}
+
+.middle-footer {
+  margin-top: 20px;
+}
+
+.bottom-footer {
+  margin-top: 40px;
+  font-weight: 700;
 }

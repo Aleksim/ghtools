@@ -14,6 +14,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@el7cosmos/gatsby-plugin-prefetch-google-fonts": "^2.0.3",
+    "@tiaanduplessis/react-progressbar": "^1.0.0",
     "airtable": "^0.10.1",
     "bulma": "^0.9.1",
     "gatsby": "^2.25.3",

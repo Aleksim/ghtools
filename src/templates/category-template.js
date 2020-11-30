@@ -2,6 +2,7 @@ import React from 'react'
 import Layout2 from '../components/Layout2'
 import Posts from '../components/Posts'
 import Hero2 from '../components/Hero2'
+import Nav2 from '../components/Nav2'
 import {graphql} from 'gatsby'
 
 const CategoryTemplate = (props) => {
@@ -16,7 +17,7 @@ const CategoryTemplate = (props) => {
 
     return (
         <Layout2>
-            <Hero2 tag={`${tags}`}/>
+            <Nav2 tag={`${tags}`}/>
             <Posts posts={posts} title={`${tags}`}/>
         </Layout2>
     )

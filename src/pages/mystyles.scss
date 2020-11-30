@@ -3,6 +3,19 @@
 // If need, change your variables before importing Bulma
 $title-color: #fff;
 $title-line-height: 1.125;
+
 $navbar-background-color: #000;
+$navbar-item-color: #fff;
+$navbar-item-active-color: #37b7d2;
+$navbar-item-hover-background-color: #000;
+$navbar-item-hover-color: #37b7d2;
+
+$tag-background-color: #37b7d2;
+$tag-color: #fff;
+$tag-radius: 10px;
+
+$section-padding: 1rem 1rem;
+
+$footer-background-color: #16181c;
 
 @import "~bulma/bulma.sass";
