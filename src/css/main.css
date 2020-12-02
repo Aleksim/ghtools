@@ -247,6 +247,13 @@
   }
 }
 
+/*Error*/
+
+.error {
+  font-size: 3rem;
+  font-family: Permanent Marker;
+}
+
 /*Footer*/
 
 .footer-style {
