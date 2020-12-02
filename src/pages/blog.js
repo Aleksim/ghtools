@@ -57,7 +57,7 @@ const blog = () => {
                     I hope you find value from here. Let's rock!
                 </p>
                 <p>
-                    I used gatsby.js and Airtable to build this site. Check it out in github.
+                    I used gatsby.js and Airtable to build this site. Check it out in <span><a href="https://github.com/Aleksim/ghtools">Github</a></span>.
                 </p>
             </div>
             </div>

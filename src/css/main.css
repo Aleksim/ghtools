@@ -67,6 +67,7 @@
 
 .item-bg {
   background-color: #191b1f;
+  min-height: 60vh;
 }
 
 .center-logo {

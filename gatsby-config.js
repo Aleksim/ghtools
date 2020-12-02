@@ -13,7 +13,7 @@ module.exports = {
     url:"https://www.growthhackertools.io",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-react-helmet`, 'gatsby-plugin-simple-analytics',
      {
       resolve: `gatsby-source-airtable`,
       options:{
