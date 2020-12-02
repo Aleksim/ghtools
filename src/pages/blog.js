@@ -13,7 +13,7 @@ const blog = () => {
             <div className="main-blog">
             <div className="content">
                 <h1>
-                    Every indiehacker loves building but selling.. not as much.
+                    Every indiehacker loves building, but selling.. not as much.
                 </h1>
                 <p>
                     Hello, <span><a href="https://twitter.com/aleksimmonen">@aleksimmonen</a></span> here.
