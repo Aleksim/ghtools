@@ -32,8 +32,6 @@ const blog = () => {
                 <p>
                      Good growth hacker tools are force multipliers that save us time, energy and give us extra leverage pushing our products to the global market and -helping us to keep our customers satisfied.
                 </p>
-
-
                 <p>
                    There is a clear framework that I follow in the curation of the listed tools:
                 </p>
@@ -57,7 +55,7 @@ const blog = () => {
                     I hope you find value from here. Let's rock!
                 </p>
                 <p>
-                    I used gatsby.js and Airtable to build this site. Check it out in <span><a href="https://github.com/Aleksim/ghtools">Github</a></span>.
+                    I used gatsby.js and Airtable to build this site. Check the code at <span><a href="https://github.com/Aleksim/ghtools">Github</a></span>.
                 </p>
             </div>
             </div>
