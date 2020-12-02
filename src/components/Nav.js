@@ -13,9 +13,11 @@ const Nav = () => {
       <nav className="navbar uber">
         <div className="container is-max-desktop">
           <div className="navbar-brand">
+            <Link to="/">
             <h1 className="navbar-item nav-logo">
                 GROWTH HACKER TOOLS
             </h1>
+            </Link>
             <a onClick={()=>{
                 setBurger(!burger1)  
               }} role="button" className={`navbar-burger ${burger_value}`}aria-label="menu" aria-expanded="false">
@@ -26,6 +28,9 @@ const Nav = () => {
           </div>
           <div className={`navbar-menu ${burger_value}`}>
             <div className="navbar-end nav-responsive">
+                <Link className="navbar-item nav-item is-active" to="/blog">
+                   Blog
+                </Link>
                 <Link className="navbar-item nav-item is-active" to="/category">
                    All categories
                 </Link>

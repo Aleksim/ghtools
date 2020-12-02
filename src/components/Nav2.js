@@ -29,6 +29,9 @@ const Nav2 = ({tag}) => {
           </div>
           <div className={`navbar-menu ${burger_value}`}>
             <div className="navbar-end">
+                <Link className="navbar-item nav-item is-active" to="/blog">
+                   Blog
+                </Link>
                 <Link className="navbar-item nav-item is-active" to="/category">
                    All categories
                 </Link>

@@ -8,7 +8,7 @@ const Footer = () => {
         <div class="content has-text-centered footer-style">
             <div>
                 <div>
-                    Created and editored for <span style={{fontFamily: "Permanent Marker"}}>hackers</span> by <span><a>@aleksimmonen</a></span> in Helsinki, Finland. 
+                    Created and curated for <span style={{fontFamily: "Permanent Marker", marginLeft:"2px", marginRight:"3px"}}>hackers</span> by <span><a>@aleksimmonen</a></span> in Helsinki, Finland. 
                 </div>
                 <div className="icons-footer">
                     <a href="https://twitter.com/aleksimmonen">
@@ -23,12 +23,16 @@ const Footer = () => {
                 </div>
             </div>
             <div className="middle-footer">
-                Dm me in twitter if I am missing something!
+                Message me in twitter or talk to me at <span><a href="https://discord.gg/tz9TwhBxeD">Discord</a></span> if I am missing something.
             </div>
             <div className="bottom-footer">
-                <a href="https://www.grew.dev/">
-                    Grew product
-                </a>
+                A 
+                <span style={{marginLeft:"4px", marginRight:"4px"}}>
+                    <a href="https://www.grew.dev/">
+                        Grew
+                    </a>
+                </span>
+                hustle
             </div>
         </div>
         </footer>

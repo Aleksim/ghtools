@@ -1,9 +1,12 @@
 import React from 'react'
 import Nav4 from '../components/Nav4'
+import SEO from '../components/SEO'
+
 
 const signup = () => {
     return (
         <div>
+            <SEO title="Subscribe"/>
             <Nav4/>
             <div className="section signup-bg">
                 <div className="container">

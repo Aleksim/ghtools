@@ -39,7 +39,7 @@ const Post = ({ data}) => {
                         <span className={`tags-gh ${tag_value3}`}>{tag3}</span>
                     </Link>
                 </div>
-                <span className={`published-gh ${published_value}`}>Published in GHT {published}</span>
+                <span className={`published-gh ${published_value}`}>Published in GHT <span style={{color:"#37b7d2", fontWeight:"300"}}>{published}</span></span>
                  </div>
              </li>
          </ul>

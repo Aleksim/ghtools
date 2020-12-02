@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Posts from '../components/Posts'
+import SEO from '../components/SEO'
 import {graphql} from 'gatsby'
 
 
@@ -11,6 +12,7 @@ const Home = ({data})=> {
 
   return (
     <Layout>
+        <SEO title="Most Recent"/>
         <Posts posts={posts}/>
     </Layout>
   )

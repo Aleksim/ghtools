@@ -3,8 +3,17 @@ require("dotenv").config({
 })
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata:{
+    title:"Growth Hacker Tools",
+    description: "Find the newest growth hacking / marketing tools from growthhackertools.io. From hackers to hackers.",
+    titleTemplate: "%s | Growth Hacker Tools",
+    author:"@aleksimmonen",
+    twitterUsername:"@aleksimmonen",
+    image:"/hackertools.png",
+    url:"https://www.growthhackertools.io",
+  },
   plugins: [
+    `gatsby-plugin-react-helmet`,
      {
       resolve: `gatsby-source-airtable`,
       options:{
