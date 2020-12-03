@@ -34,6 +34,9 @@ const Footer = () => {
                 </span>
                 hustle
             </div>
+            <div className="privacy-footer">
+                <a href="https://github.com/Grew-dev/grew-privacy-policy/blob/main/README.md">Privacy Policy</a>
+            </div>
         </div>
         </footer>
     )
