@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="middle-footer">
-                Message me in twitter or talk to me at <span><a href="https://discord.gg/tz9TwhBxeD">Discord</a></span> if I am missing something.
+                Message me in <span><a href="https://twitter.com/aleksimmonen">Twitter</a></span> or talk to me at <span><a href="https://discord.gg/tz9TwhBxeD">Discord</a></span> if I am missing something.
             </div>
             <div className="bottom-footer">
                 A 
