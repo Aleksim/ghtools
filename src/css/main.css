@@ -207,6 +207,10 @@
 }
 
 /*signup*/
+.signup-bg-1 {
+  background-color: #1b1c1f;
+  height: 100vh;
+}
 
 .signup-bg {
   color: #fff;
@@ -225,6 +229,17 @@
 
 .sign-up-box {
   margin-top: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .signupwidth {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .signupwidth {
+  }
 }
 
 /*Blog*/

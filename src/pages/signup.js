@@ -5,11 +5,14 @@ import SEO from '../components/SEO'
 
 const signup = () => {
     return (
-        <div>
+        <div className="signup-bg-1">
             <SEO title="Subscribe"/>
             <Nav4/>
-            <div className="section signup-bg">
-                <div className="container">
+            <div className="section">
+            <div className="container">
+
+                <div className="section signup-bg">
+                <div className="container signupwidth">
                     <form action="https://formspree.io/f/xgeplnly" method="POST">
                         <div className="">
                             <h1 className="sign-up-header">
@@ -26,7 +29,8 @@ const signup = () => {
                         </div>
                     </form>
                 </div>
-                
+                </div>
+            </div>
             </div>
         </div>
     )

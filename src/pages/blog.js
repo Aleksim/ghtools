@@ -6,9 +6,11 @@ import {Link} from 'gatsby'
 
 const blog = () => {
     return (
-        <div>
+        <>
             <SEO title="Blog" description="This site collects newest marketing tools to one place."/>
             <Nav/>
+                    <div className="section">
+            <div className="container">
         <div className="section">
             <div className="main-blog">
             <div className="content">
@@ -62,6 +64,8 @@ const blog = () => {
         </div>
         <Footer/>
         </div>
+        </div>
+        </>
     )
 }
 
