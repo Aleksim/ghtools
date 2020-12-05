@@ -82,13 +82,88 @@
 /*Recent*/
 
 .recent {
-  text-align: center;
   padding-top: 10px;
   color: #fff;
 }
 
-.recent-bg {
-  background-color: #1b1c1f;
+/*iso*/
+@media screen and (min-width: 992px) {
+  .filter {
+    padding-top: 10px;
+    color: #fff;
+    font-weight: 650;
+  }
+}
+
+/*pieni*/
+@media screen and (max-width: 992px) {
+  .filter {
+    display: none;
+  }
+}
+
+/*iso*/
+@media screen and (min-width: 992px) {
+  .recent-bg {
+    background-color: #1b1c1f;
+    font-size: 0.8rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+}
+
+/*pieni*/
+@media screen and (max-width: 992px) {
+  .recent-bg {
+    background-color: #1b1c1f;
+    font-size: 0.8rem;
+  }
+}
+
+/*iso*/
+@media screen and (min-width: 992px) {
+  .flex-bg {
+    width: 700px;
+  }
+}
+
+/*pieni*/
+@media screen and (max-width: 992px) {
+  .flex-bg {
+  }
+}
+
+/*iso*/
+@media screen and (min-width: 992px) {
+  .recent-flex {
+    margin-left: 4px;
+    margin-right: 4px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: stretch;
+  }
+}
+
+/*pieni*/
+@media screen and (max-width: 992px) {
+  .recent-flex {
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+  }
 }
 
 /*category frame*/
@@ -267,6 +342,15 @@
 .error {
   font-size: 3rem;
   font-family: Permanent Marker;
+  background-color: #1b1c1f;
+  height: 80vh;
+  text-align: center;
+  padding: 70px 0;
+  color: #fff;
+}
+
+.error-bg {
+  background-color: #1b1c1f;
 }
 
 /*Footer*/

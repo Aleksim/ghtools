@@ -4,6 +4,8 @@ import Posts from '../components/Posts'
 import Hero2 from '../components/Hero2'
 import Nav2 from '../components/Nav2'
 import {graphql} from 'gatsby'
+import Recent from '../components/Recent'
+
 
 const CategoryTemplate = (props) => {
 
@@ -18,6 +20,7 @@ const CategoryTemplate = (props) => {
     return (
         <Layout2>
             <Nav2 tag={`${tags}`}/>
+            <Recent/>
             <Posts posts={posts} title={`${tags}`}/>
         </Layout2>
     )

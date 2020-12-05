@@ -10,7 +10,7 @@ const category = () => {
         <div>
             <SEO title="Categories"/>
             <Layout2>
-                <Nav3/>
+                <Nav3/>        
                 <Categories/>
             </Layout2>
         </div>
