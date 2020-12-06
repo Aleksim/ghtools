@@ -31,6 +31,21 @@
   font-family: Roboto;
 }
 
+.ug {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.text {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
 /*upperrow*/
 
 @media screen and (min-width: 992px) {
@@ -284,7 +299,7 @@
 /*signup*/
 .signup-bg-1 {
   background-color: #1b1c1f;
-  height: 100vh;
+  height: 130vh;
 }
 
 .signup-bg {

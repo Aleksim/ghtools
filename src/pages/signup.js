@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav4 from '../components/Nav4'
 import SEO from '../components/SEO'
+import Footer from '../components/Footer'
 
 
 const signup = () => {
@@ -11,7 +12,7 @@ const signup = () => {
             <div className="section">
             <div className="container">
 
-                <div className="section signup-bg">
+                <div className="section signup-bg ">
                 <div className="container signupwidth">
                     <form action="https://formspree.io/f/xgeplnly" method="POST">
                         <div className="">
@@ -20,6 +21,9 @@ const signup = () => {
                             </h1>
                             <h2 className="sign-up-header2">
                                 I will send the newsletter once per month or more often if there is enough material.
+                            </h2>
+                            <h2 className="sign-up-header2">
+                                <a href="https://github.com/Grew-dev/grew-privacy-policy/blob/main/README.md">Privacy policy</a>
                             </h2>
                             <input className="input input-style sign-up-box" type="email" name="email" placeholder="email"/>
                             
@@ -32,6 +36,7 @@ const signup = () => {
                 </div>
             </div>
             </div>
+        <Footer/>
         </div>
     )
 }

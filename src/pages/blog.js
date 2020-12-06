@@ -15,7 +15,7 @@ const blog = () => {
             <div className="main-blog">
             <div className="content">
                 <h1>
-                    Every indiehacker loves building, but selling.. not as much.
+                   The newest and UGest tools to give you an edge.
                 </h1>
                 <p>
                     Hello, <span><a href="https://twitter.com/aleksimmonen">@aleksimmonen</a></span> here.
@@ -40,7 +40,7 @@ const blog = () => {
                 <p>
                     <ol>
                         <li>
-                            I lean towards just launched marketing/sales tools.
+                            I lean towards just launched marketing/sales tools AND obscure hacks that I find interesting.
                         </li>
                         <li>
                             I consider every tool through the AARRR (pirate metrics) lense.
@@ -62,9 +62,9 @@ const blog = () => {
             </div>
             </div>
         </div>
+        </div>
+        </div>
         <Footer/>
-        </div>
-        </div>
         </>
     )
 }

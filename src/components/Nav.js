@@ -13,11 +13,16 @@ const Nav = () => {
       <nav className="navbar uber">
         <div className="container is-max-desktop">
           <div className="navbar-brand">
-            <Link to="/">
-            <h1 className="navbar-item nav-logo">
-                GROWTH HACKER TOOLS
-            </h1>
-            </Link>
+            <div className="ug ">
+              <Link to="/">
+                <h1 className="navbar-item nav-logo">
+                    GROWTH HACKER TOOLS
+                </h1>
+              </Link>
+              <div className="text">
+                The newest and UGest to give you an edge
+              </div>
+            </div>
             <a onClick={()=>{
                 setBurger(!burger1)  
               }} role="button" className={`navbar-burger ${burger_value}`}aria-label="menu" aria-expanded="false">
