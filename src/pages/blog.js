@@ -51,14 +51,9 @@ const blog = () => {
                     </ol>
                 </p>
                 <p>
-                   This is the first version of Growth Hacker Tools and it is a product of two weeks of hacking. <span style={{fontWeight:"600"}}>I am more of a growth hacker than a programmer</span>, so everything is not perfect YET ;) !
-                </p>
-                <p>
                     I hope you find value from here. Let's rock!
                 </p>
-                <p>
-                    I used gatsby.js and Airtable to build this site. Check the code at <span><a href="https://github.com/Aleksim/ghtools">Github</a></span>.
-                </p>
+
             </div>
             </div>
         </div>
