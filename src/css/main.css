@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.generic-background {
+  background-color: #1b1c1f;
+}
+
 /*nav*/
 
 .navbar-brand {
@@ -96,6 +100,46 @@
 
 /*Recent*/
 
+/*iso*/
+@media screen and (min-width: 992px) {
+  .feed-text {
+    font-weight: 800;
+    font-family: Roboto;
+    letter-spacing: 3px;
+  }
+}
+
+/*pieni*/
+@media screen and (max-width: 992px) {
+  .feed-text {
+    font-size: 0.8em;
+    font-weight: 800;
+    font-family: Roboto;
+    letter-spacing: 3px;
+  }
+}
+
+.linear-wipe {
+  position: relative;
+  font-family: Roboto;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #37b7d2);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -450%;
+  }
+  100% {
+    background-position: 450%;
+  }
+}
+
 .recent {
   padding-top: 10px;
   color: #fff;
@@ -120,15 +164,41 @@
 /*iso*/
 @media screen and (min-width: 992px) {
   .recent-bg {
-    background-color: #1b1c1f;
+    background: rgb(25, 27, 31);
+
     font-size: 0.8rem;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     align-content: flex-start;
+  }
+}
+
+.outer-tabs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+/*pieni*/
+@media screen and (max-width: 992px) {
+  .selectors {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+/*iso*/
+@media screen and (min-width: 992px) {
+  .selectors {
+    margin-top: 35px;
+    height: 100%;
   }
 }
 
@@ -213,7 +283,8 @@
 .title-gh {
   font-family: Roboto;
   color: #cbcbcb;
-  font-weight: bold;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 /*tags*/
@@ -288,6 +359,61 @@
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
+}
+
+/*Daily Stream*/
+.daily-title {
+  font-weight: 700;
+  color: #37b7d2;
+  padding-bottom: 10px;
+}
+
+.section-topic {
+  margin-top: 30px;
+  color: #494b50;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  display: inline-block;
+}
+
+.tool-name {
+  font-weight: 400;
+  color: #cbcbcb;
+  padding-bottom: 10px;
+}
+
+.packaged {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.flexed {
+  width: 100%;
+}
+
+.tool-text {
+  color: #eeeeee;
+}
+
+.date {
+  font-weight: 600;
+}
+
+.date-button-score {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
 }
 
 /*tjffj*/

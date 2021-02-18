@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { BsFillLightningFill } from "react-icons/bs";
 import {Link} from 'gatsby'
 import "../pages/mystyles.scss"
 

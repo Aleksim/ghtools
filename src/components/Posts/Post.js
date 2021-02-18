@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import Image from 'gatsby-image'
 import { Link } from 'gatsby'
-import { MdDateRange } from "react-icons/md";
 
 
 

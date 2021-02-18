@@ -1,7 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'gatsby'
+import Select from "../components/Select"
+import "../css/main.css"
+
 
 const Recent = () => {
+
 
     const recent = "/"
     const acquisition = "/acquisition"
@@ -10,10 +14,15 @@ const Recent = () => {
     const retention ="/retention"
     const revenue ="/revenue"
 
+
     return (
         <div className="recent-bg">
+            <Select/>
+
+
             <div className="flex-bg">
-            <div className="recent-flex">
+
+            <div className="recent-flex ">
                 <h2 className="filter">
                     Filter by:
                 </h2>
