@@ -147,15 +147,6 @@ body {
 /*pieni*/
 @media screen and (max-width: 992px) {
   .linear-wipe {
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #fff, #37b7d2);
-    background-image: conic-gradient(#fff, #37b7d2);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
   }
 }
 
@@ -219,7 +210,7 @@ body {
 @media screen and (max-width: 992px) {
   .selectors {
     margin-top: 10px;
-    width: 100%;
+    width: 100vw;
   }
 }
 
