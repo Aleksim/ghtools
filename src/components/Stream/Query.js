@@ -10,7 +10,7 @@ const Query = () => {
 
 
     useEffect(() => {
-            fetch('https://hidden-eyrie-68310.herokuapp.com/tools',{
+            fetch('https://hidden-eyrie-68310.herokuapp.com',{
                 method:'GET',
                 headers:{
                     'Authorization':'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDJiYWUzYzE2NDhjYzM0MWNhZWJkMGEiLCJpYXQiOjE2MTM0NzU2MDd9.ixdpF2dLn8N4EwcMycUvktS773D-QHWQl1fbr-g_NoU'
