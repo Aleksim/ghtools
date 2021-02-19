@@ -22,34 +22,28 @@ const blog = () => {
                 </p>
                 <p>
                     I created this site to help fellow indiehackers/entrepreneurs to find the newest growth hacking / marketing tools. 
-                    In other words, <span style={{fontWeight:"600"}}>the tools that I could imagine using myself</span>, as a coding entrepreneur with 7+ years experience in technical marketing.
+                </p>
+                <p>
+                    The way this site works is that I have a <span style={{fontWeight:"600"}}>bunch of scripts and crawlers</span> looking at the usual places and updating the "daily stream" <span style={{fontWeight:"600"}}>daily</span>!
+
                 </p>
 
-                <p>
-                    It is a sad truth that many valuable tools remain undiscovered because there is just too little time to spend looking for them and too much noise in ShowHN, IH, Reddit and Product Hunt etc.
+                 <p>
+                    In addition, <span style={{fontWeight:"600"}}>I test and hand pick promising tools</span> and post them to the "hacker's picks" list.            
                 </p>
                 <p>
-                    <span style={{fontWeight:"600"}}>This site collects newest marketing tools to one <span><Link to="/">place</Link></span>.</span>
+                    I am myself a coding entrepreneur/marketer with 7+ years experience in technical marketing.
+
+                </p>
+                
+
+                <p>
+                    Many valuable tools remain undiscovered because there is just too little time to spend looking for them and too much noise in ShowHN, IH, Reddit and Product Hunt etc.
                 </p>
                 <p>
-                     Good growth hacker tools are force multipliers that save us time, energy and give us extra leverage pushing our products to the global market and -helping us to keep our customers satisfied.
+                    <span style={{fontWeight:"600"}}>But now there is a way to keep track of all the newest marketing tools 🦾🦾<span><Link to="/"></Link></span>.</span>
                 </p>
-                <p>
-                   There is a clear framework that I follow in the curation of the listed tools:
-                </p>
-                <p>
-                    <ol>
-                        <li>
-                            I lean towards just launched marketing/sales tools AND obscure hacks that I find interesting.
-                        </li>
-                        <li>
-                            I consider every tool through the AARRR (pirate metrics) lense.
-                        </li>
-                        <li>
-                            Not every tool has to be "no-code" / github repos are also appreciated!
-                        </li>
-                    </ol>
-                </p>
+
                 <p>
                     I hope you find value from here. Let's rock!
                 </p>
