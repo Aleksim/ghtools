@@ -20,7 +20,7 @@ const Nav = () => {
                 </h1>
               </Link>
               <div className="text">
-                The newest and UGest to give you an edge
+                Newest marketing tools in one place
               </div>
             </div>
             <a onClick={()=>{
