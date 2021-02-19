@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
 const Query = () => {    
-    const [data, setData] = useState([])
+    const [data, setData] = useState()
 
     const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
@@ -48,7 +48,8 @@ return(
         
             
             ) })
-                : "loading"}
+                : <progress className="progress is-small is-primary loading-spinner" max="100">15%</progress>
+}
                 </ul>
             </div>
         </div>

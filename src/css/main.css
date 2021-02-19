@@ -222,6 +222,10 @@ body {
   }
 }
 
+.loading-spinner {
+  margin-top: 50px;
+}
+
 /*pieni*/
 @media screen and (max-width: 992px) {
   .recent-bg {
