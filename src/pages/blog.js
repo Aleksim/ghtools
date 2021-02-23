@@ -15,37 +15,39 @@ const blog = () => {
             <div className="main-blog">
             <div className="content">
                 <h1>
-                   The newest and UGest tools to give you an edge.
+                   Everyday a new marketing tool is launched in the internet.
                 </h1>
+
                 <p>
-                    Hello, <span><a href="https://twitter.com/aleksimmonen">@aleksimmonen</a></span> here.
-                </p>
-                <p>
-                    I created this site to help fellow indiehackers/entrepreneurs to find the newest growth hacking / marketing tools. 
-                </p>
-                <p>
-                    The way this site works is that I have a <span style={{fontWeight:"600"}}>bunch of scripts and crawlers</span> looking at the usual places and updating the "daily stream" <span style={{fontWeight:"600"}}>daily</span>!
+                    <span style={{fontWeight:"600"}}>This site brings all those tools to one place!</span> 
 
                 </p>
 
                  <p>
-                    In addition, <span style={{fontWeight:"600"}}>I test and hand pick promising tools</span> and post them to the "hacker's picks" list.            
+                    The way this site works is that I have set up a bunch of scripts and crawlers monitoring the “usual places” where people launch software products. 
                 </p>
                 <p>
-                    I am myself a coding entrepreneur/marketer with 7+ years experience in technical marketing.
-
-                </p>
-                
-
-                <p>
-                    Many valuable tools remain undiscovered because there is just too little time to spend looking for them and too much noise in ShowHN, IH, Reddit and Product Hunt etc.
+                    When a marketing tool is identified, it is automatically picked up and placed in the “daily stream”. The daily stream is updated twice a day.
                 </p>
                 <p>
-                    <span style={{fontWeight:"600"}}>But now there is a way to keep track of all the newest marketing tools 🦾🦾<span><Link to="/"></Link></span>.</span>
+                In addition, I hand pick the COOLEST new marketing tools to the “top picks” list. In the top picks, there is a quick comment why I selected a certain tool.
+                </p>
+                <p>
+                    <span style={{fontWeight:"600"}}>This site is still a work in progress </span>
+                 and I admit that there is some garbage among the daily stream selections currently (this is a limited time, side project of mine). However, I think that this site is already a better way to find newest marketing tools than going to the usual places and doing the filtering yourself. 
                 </p>
 
                 <p>
-                    I hope you find value from here. Let's rock!
+                There is an option to sign-up to an email list as well to get the top tools straight to your inbox.
+                </p>
+
+                <p>
+                    I hope you get value out of this!
+
+                </p>
+
+                <p>
+    If you have some feedback or anything else, lets connect <span><a href="https://twitter.com/aleksimmonen">@aleksimmonen</a></span>
                 </p>
 
             </div>
