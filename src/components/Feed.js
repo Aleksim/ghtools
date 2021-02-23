@@ -17,7 +17,7 @@ const Feed = () => {
                         <li onClick={()=>{setTab(true)}} className={`${tabz_value} feed-text`}>
                         <Link to="/">
                             <span className="icon is-small"><i className="fas fa-image" aria-hidden="true"></i></span>
-                            <span>HACKER'S PICKS</span>
+                            <span>TOP PICKS</span>
                         </Link>
                         </li>
                         

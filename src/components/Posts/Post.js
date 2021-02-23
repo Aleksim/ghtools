@@ -22,17 +22,17 @@ const Post = ({ data}) => {
              <li className="list-items">
                     <h2 className={`date-post${published_value}`}>{published}</h2>
                     <div className="section-topic-picks">
-                        <h2 className="daily-title"> {name}</h2>
+                        <Link to={url}><h2 className="daily-title">{name}</h2></Link>
                     </div>
                     <div className="upper-row ">
                         <span className={`${title_value}`}>
-                            <Link to={url} className="tool-text">Description: {title}</Link>
+                            <p to={url} className="tool-text">Description: {title}</p>
                         </span>
                         <span className={`url-gh ${url_value}`}>({url})</span>
                     </div>
                     <div>
                         <p className="tool-text2">
-                            alex> <span>"{notes}"</span>
+                            Alexi> <span>"{notes}"</span>
                         </p>
                     </div>
                  <div className="bottom-row">
