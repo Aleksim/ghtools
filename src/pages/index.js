@@ -5,8 +5,10 @@ import SEO from '../components/SEO'
 import {graphql} from 'gatsby'
 
 
-const Home = ({data})=> {  
+const Home = ({data, images})=> {  
   const {allAirtable:{nodes:posts}}=data
+
+  //const {}= images
 
  
 
@@ -29,8 +31,15 @@ export const query = graphql`
           tag1
           tag2
           tag3
+          name
+          notes
         }
         id
+      }
+    }
+    imageSharp{
+      fluid{
+        src
       }
     }
   }

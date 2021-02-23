@@ -48,7 +48,7 @@ return(
         
             
             ) })
-                : <progress className="progress is-small is-primary loading-spinner" max="100">15%</progress>
+                : <div className="loading-screen"><h2 className="loading-screen-h2">Just a sec..</h2><progress className="progress is-small is-primary loading-spinner" max="100">15%</progress></div>
 }
                 </ul>
             </div>

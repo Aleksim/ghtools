@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 
 const Post = ({ data}) => {
-    const { published, tag1, tag2, tag3, title, url } = data
+    const { published, tag1, tag2, tag3, title, url, name, notes } = data
     
     const tag_value1 = tag1 ? 'tag' : 'hide'
     const tag_value2 = tag2 ? 'tag' : 'hide'
@@ -20,12 +20,21 @@ const Post = ({ data}) => {
     return (
          <ul className={`${element_value}`}>
              <li className="list-items">
-                 <div className="upper-row ">
-                    <span className={`title-gh ${title_value}`}>
-                        <Link to={url} className="title-gh">{title}</Link>
-                    </span>
-                    <span className={`url-gh ${url_value}`}>({url})</span>
-                 </div>
+                    <h2 className={`date-post${published_value}`}>{published}</h2>
+                    <div className="section-topic-picks">
+                        <h2 className="daily-title"> {name}</h2>
+                    </div>
+                    <div className="upper-row ">
+                        <span className={`${title_value}`}>
+                            <Link to={url} className="tool-text">Description: {title}</Link>
+                        </span>
+                        <span className={`url-gh ${url_value}`}>({url})</span>
+                    </div>
+                    <div>
+                        <p className="tool-text2">
+                            alex> <span>{notes}</span>
+                        </p>
+                    </div>
                  <div className="bottom-row">
                 <div className="tag-flex">
                     <Link to={`/${tag1}`}>
@@ -38,7 +47,6 @@ const Post = ({ data}) => {
                         <span className={`tags-gh ${tag_value3}`}>{tag3}</span>
                     </Link>
                 </div>
-                <span className={`published-gh ${published_value}`}>Published in GHT <span style={{color:"#37b7d2", fontWeight:"300"}}>{published}</span></span>
                  </div>
              </li>
          </ul>
