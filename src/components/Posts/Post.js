@@ -32,7 +32,7 @@ const Post = ({ data}) => {
                     </div>
                     <div>
                         <p className="tool-text2">
-                            Alexi> <span>"{notes}"</span>
+                            Quick comment: <span>"{notes}"</span>
                         </p>
                     </div>
                  <div className="bottom-row">
