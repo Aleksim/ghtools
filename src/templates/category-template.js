@@ -38,6 +38,8 @@ query GetTag($tags: String) {
         tags
         title
         url
+        name
+        notes
       }
     }
   }
