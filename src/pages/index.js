@@ -25,7 +25,7 @@ export const query = graphql`
     allAirtable(sort: {order: DESC, fields: data___published}) {
       nodes {
         data {
-          published(formatString: "MMMM Do, YYYY")
+          published(formatString: "MMMM YYYY")
           title
           url
           tag1
