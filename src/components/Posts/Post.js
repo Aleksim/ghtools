@@ -16,11 +16,16 @@ const Post = ({ data}) => {
     const published_value = published ? '': 'hide'
     const element_value =title? 'item':'hide'
 
+    const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+}
+
 
     return (
          <ul className={`${element_value}`}>
              <li className="list-items">
-                    <h2 className={`date-post${published_value}`}>{published}</h2>
+                    <h2 className={`date-post${published_value}`}>{published} Top Picks</h2>
                     <div className="section-topic-picks">
                         <Link to={url}><h2 className="daily-title">{name}</h2></Link>
                     </div>
@@ -32,21 +37,24 @@ const Post = ({ data}) => {
                     </div>
                     <div>
                         <p className="tool-text2">
-                            Quick comment: <span>"{notes}"</span>
+                            >> <span>"{notes}"</span>
                         </p>
                     </div>
                  <div className="bottom-row">
-                <div className="tag-flex">
-                    <Link to={`/${tag1}`}>
-                        <span className={`tags-gh ${tag_value1}`}>{tag1}</span>
-                    </Link>
-                    <Link to={`/${tag2}`}>
-                        <span className={`tags-gh ${tag_value2}`}>{tag2}</span>
-                    </Link>
-                    <Link to={`/${tag3}`}>
-                        <span className={`tags-gh ${tag_value3}`}>{tag3}</span>
-                    </Link>
-                </div>
+                    <div className="tag-flex">
+                        <Link to={`/${tag1}`}>
+                            <span className={`tags-gh ${tag_value1}`}>{tag1}</span>
+                        </Link>
+                        <Link to={`/${tag2}`}>
+                            <span className={`tags-gh ${tag_value2}`}>{tag2}</span>
+                        </Link>
+                        <Link to={`/${tag3}`}>
+                            <span className={`tags-gh ${tag_value3}`}>{tag3}</span>
+                        </Link>
+                    </div>
+                    <div>
+                        <button onClick={()=>{openInNewTab(`${url}`)}} class="button is-primary is-outlined is-small">Check It Out</button>
+                    </div>
                  </div>
              </li>
          </ul>

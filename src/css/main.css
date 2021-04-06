@@ -420,9 +420,9 @@ body {
 
 .bottom-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
 }
@@ -469,7 +469,7 @@ body {
 }
 
 .tool-text2 {
-  color: #37b7d2;
+  color: #00d1b2;
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 200;
