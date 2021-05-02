@@ -8,7 +8,7 @@ const Footer = () => {
         <div class="content has-text-centered footer-style">
             <div>
                 <div>
-                    Created and curated for <span style={{fontFamily: "Permanent Marker", marginLeft:"2px", marginRight:"3px"}}>hackers</span> by <span><a>@aleksimmonen</a></span> in Helsinki, Finland. 
+                    Created and curated for <span style={{fontFamily: "Permanent Marker", marginLeft:"2px", marginRight:"3px"}}>hackers</span> by <span><a>@aleksimmonen</a></span> . 
                 </div>
                 <div className="icons-footer">
                     <a href="https://twitter.com/aleksimmonen">
