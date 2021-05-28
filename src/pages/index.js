@@ -18,7 +18,7 @@ const Home = ({data})=> {
         <Posts posts={posts}/>
         <div className="">
           <div className="container is-max-desktop index-next-div">
-            <Link className='pagination-next index-next' to='/2' rel="next">Next page</Link>
+            <Link className='pagination-next index-next' to='/2' rel="next">See more</Link>
           </div>
         </div>
     </Layout>
