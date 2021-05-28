@@ -27,7 +27,7 @@ return(
                 <ul>
                 
             {data ? 
-            data.map(i=> {return(
+            data.slice(0,100).map(i=> {return(
             <ul className="item">
                 <li className="list-items">
                     <div className="packaged">

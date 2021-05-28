@@ -593,3 +593,33 @@ body {
   margin-top: 40px;
   font-weight: 500;
 }
+
+/*index page next button*/
+
+.index-next {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.pagination-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.index-next-div {
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+
+html,
+body {
+  overflow: visible;
+}

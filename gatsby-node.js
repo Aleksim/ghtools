@@ -20,6 +20,27 @@ exports.createPages = async ({ graphql, actions }) => {
     },
     })
   })
+
+  //create listing pages
+  const posts = result.data.tag.distinct;
+  const postsPerPage = 5;
+  const numPages = Math.ceil(posts.length / postsPerPage);
+  Array.from({length: numPages}).forEach((_, i)=>{
+    createPage(
+      {
+        path: i===0 ? `/` : `/${i+1}`,
+        component: path.resolve("./src/templates/post-list.js"),
+        context:{
+          limit:postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
+        }
+      }
+    )
+  })
+
+
 }
 
 // Implement the Gatsby API “onCreatePage”. This is

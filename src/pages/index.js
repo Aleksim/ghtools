@@ -2,10 +2,10 @@ import React from "react"
 import Layout from "../components/Layout"
 import Posts from '../components/Posts'
 import SEO from '../components/SEO'
-import {graphql} from 'gatsby'
+import {graphql, Link} from 'gatsby'
 
 
-const Home = ({data, images})=> {  
+const Home = ({data})=> {  
   const {allAirtable:{nodes:posts}}=data
 
   //const {}= images
@@ -16,6 +16,11 @@ const Home = ({data, images})=> {
     <Layout>
         <SEO title="Most Recent"/>
         <Posts posts={posts}/>
+        <div className="">
+          <div className="container is-max-desktop index-next-div">
+            <Link className='pagination-next index-next' to='/2' rel="next">Next page</Link>
+          </div>
+        </div>
     </Layout>
   )
 }

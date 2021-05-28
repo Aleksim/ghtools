@@ -7,7 +7,7 @@ const Posts = ({posts, title}) => {
         <div className="section item-bg">
             <div className="container is-max-desktop">
                 <div className="">
-                    {posts.map(post=>{
+                    {posts.slice(0,5).map(post=>{
                         return <Post key={post.id} {...post}  />
                     })}
                 </div>
