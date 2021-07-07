@@ -13,6 +13,24 @@ module.exports = {
     url:"https://www.growthhackertools.io",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-J24X8Z8PJ5", // Google Analytics / GA
+        ],
+        // This object gets passed directly to the gtag config command
+        // This config will be shared across all trackingIds
+
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+          
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`, 'gatsby-plugin-simple-analytics',
      {
       resolve: `gatsby-source-airtable`,
