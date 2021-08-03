@@ -31,7 +31,7 @@ const Post = ({ data}) => {
                     </div>
                     <div className="upper-row ">
                         <span className={`${title_value}`}>
-                            <p to={url} className="tool-text"> {title}</p>
+                            <p to={url} className="tool-text">{title}</p>
                         </span>
                         <span className={`url-gh ${url_value}`}>({url})</span>
                     </div>
