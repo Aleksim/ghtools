@@ -1,7 +1,7 @@
 import React from 'react'
 import Post from './Post'
 import "../../css/main.css"
-//päivitys
+//päivitys1
 
 const Posts = ({posts, title}) => {
     return (
