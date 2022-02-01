@@ -22,6 +22,7 @@ const Select = () => {
                         <Link to="/app/feed">
                             <span className="icon is-small"><i className="fas fa-music" aria-hidden="true"></i></span>
                             <span>DAILY STREAM</span>
+                            <span class="tag is-small">BETA</span>
                         </Link>
                         </li>
 

@@ -148,12 +148,12 @@ body {
 }
 
 /*iso*/
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .linear-wipe {
     position: relative;
     font-family: Roboto;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #37b7d2);
+    #background: linear-gradient(90deg, #000, #fff, #37b7d2);
     background-repeat: no-repeat;
     background-size: 90%;
     animation: animate 3s linear infinite;
@@ -161,7 +161,7 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-}
+} */
 
 /*pieni*/
 @media screen and (max-width: 992px) {
