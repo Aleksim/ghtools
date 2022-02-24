@@ -16,11 +16,11 @@ const Nav = () => {
             <div className="ug ">
               <Link to="/">
                 <h1 className="navbar-item nav-logo">
-                    GROWTH HACKER TOOLS
+                    NEWEST MARKETING TOOLS
                 </h1>
               </Link>
               <div className="text">
-                Newest marketing tools in one place
+                All the newest marketing tools in one place
               </div>
             </div>
             <a onClick={()=>{

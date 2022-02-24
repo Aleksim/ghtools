@@ -20,11 +20,18 @@ const Select = () => {
                         
                         <li onClick={()=>{setTab(false)}} className={`${tabz_value2} feed-text`}>
                         <Link to="/app/feed">
-                            <span className="icon is-small"><i className="fas fa-music" aria-hidden="true"></i></span>
-                            <span>DAILY STREAM</span>
-                            <span class="tag is-small">BETA</span>
+                            
+                                <div>
+                                    DAILY STREAM   
+                                    <span>
+                                        <div class="tag is-small daily-beta">     
+                                        BETA
+                                        </div>
+                                    </span>
+                                </div>
                         </Link>
                         </li>
+
 
                     </ul>
                 </div>
