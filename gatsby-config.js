@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata:{
-    title:"Growth Hacker Tools",
+    title:"Newest Marketing Tools",
     description: "Find the newest growth hacking and marketing tools from growthhackertools.io.",
-    titleTemplate: "%s | Growth Hacker Tools",
+    titleTemplate: "%s | Newest Marketing Tools",
     author:"@aleksimmonen",
     twitterUsername:"@aleksimmonen",
     image:"/hackertools.png",

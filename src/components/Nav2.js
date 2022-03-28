@@ -14,10 +14,10 @@ const Nav2 = ({tag}) => {
         <div className="container is-max-desktop">
           <div className="navbar-brand">
             <a href="/" className="navbar-item nav-logo">
-                GHT
+                NMT
             </a>
             <h1 className="navbar-item nav-tag">
-                /{tag}
+                /newest {tag} tools
             </h1>
             <a onClick={()=>{
                 setBurger(!burger1)  

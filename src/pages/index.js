@@ -14,7 +14,7 @@ const Home = ({data})=> {
 
   return (
     <Layout>
-        <SEO title="Most Recent"/>
+        <SEO title="The ultimate source for the newest martech tools and innovations" description="Everyday a new marketing tool is launched in the internet. This site brings all those tools to one place, on a daily basis."/>
         <Posts posts={posts}/>
         <div className="">
           <div className="container is-max-desktop index-next-div">
