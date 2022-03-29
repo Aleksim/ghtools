@@ -33,6 +33,9 @@ const Nav = () => {
           </div>
           <div className={`navbar-menu ${burger_value}`}>
             <div className="navbar-end nav-responsive">
+                <Link className="navbar-item nav-item is-active" to="/marketingresources">
+                   Marketing resource sites
+                </Link>
                 <Link className="navbar-item nav-item is-active" to="/blog">
                    About
                 </Link>

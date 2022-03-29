@@ -28,6 +28,9 @@ const Nav4 = () => {
           </div>
           <div className={`navbar-menu ${burger_value}`}>
             <div className="navbar-end">
+                <Link className="navbar-item nav-item is-active" to="/marketingresources">
+                   Marketing resource sites
+                </Link>
                 <Link className="navbar-item nav-item is-active" to="/blog">
                    About
                 </Link>

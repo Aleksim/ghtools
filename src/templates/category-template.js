@@ -12,6 +12,8 @@ const CategoryTemplate = (props) => {
 
     const {pageContext:{tags}}=props
 
+    const {pageContext:{url}}=props
+
     const {data:{
                 tag:{
                     nodes:posts}
@@ -20,7 +22,7 @@ const CategoryTemplate = (props) => {
 
     return (
         <Layout2>
-            <SEO title={`The ultimate source for the newest ${tags} marketing tools`} description={`Almost everyday a new ${tags} marketing tool is published on the internet. This site brings all of them to a one place.`}/>
+            <SEO title={`The ultimate source for the newest ${tags} marketing tools`} description={`Almost everyday a new ${tags} marketing tool is published on the internet. This site brings all of them to a one place.`} url={`${url}`}/>
             <Nav2 tag={`${tags}`}/>
             <Recent/>
             <Posts posts={posts} title={`${tags}`}/>
