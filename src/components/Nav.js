@@ -16,7 +16,7 @@ const Nav = () => {
             <div className="ug ">
               <Link to="/">
                 <h1 className="navbar-item nav-logo">
-                    NEWEST MARKETING TOOLS
+                    GROWTH HACKER TOOLS
                 </h1>
               </Link>
               <div className="text">

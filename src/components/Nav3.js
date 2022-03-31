@@ -14,7 +14,7 @@ const Nav3 = () => {
         <div className="container is-max-desktop">
           <div className="navbar-brand">
             <a href="/" className="navbar-item nav-logo">
-                NMT
+                GHT
             </a>
             <h1 className="navbar-item nav-tag">
                 All Categories
