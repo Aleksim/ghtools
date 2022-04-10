@@ -45,7 +45,7 @@ module.exports = {
       selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
     },
   },
-    `gatsby-plugin-react-helmet`, 'gatsby-plugin-simple-analytics',
+    `gatsby-plugin-react-helmet`,
      {
       resolve: `gatsby-source-airtable`,
       options:{
